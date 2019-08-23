@@ -1,0 +1,27 @@
+{
+  "name": "comertis/exceptions",
+  "description": "Collection of the most common exceptions",
+  "type": "library",
+  "readme": "README.md",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "docs": "https://github.com/Comertis/Exceptions/tree/master/docs",
+    "email": "support@comertis.com",
+    "issues": "https://github.com/Comertis/Exceptions/issues",
+    "source": "https://github.com/Comertis/Exceptions"
+  },
+  "authors": [
+    {
+      "name": "Cristian Moraru",
+      "email": "cristian@comertis.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Comertis\\Exceptions\\": "src/",
+      "Comertis\\Exceptions\\Internal\\": "src/internal"
+    }
+  }
+}
