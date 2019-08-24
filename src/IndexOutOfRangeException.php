@@ -34,7 +34,7 @@
 
 namespace Comertis\Exceptions;
 
-use Comertis\Exceptions\Internal\BaseException;
+use Exception;
 
 /**
  * The exception that is thrown when an attempt is made
@@ -48,7 +48,7 @@ use Comertis\Exceptions\Internal\BaseException;
  * @version  Release: 1.0.0
  * @link     https://github.com/Comertis/Exceptions
  */
-class IndexOutOfRangeException extends BaseException
+class IndexOutOfRangeException extends Exception
 {
     /**
      * Exception message

@@ -34,7 +34,7 @@
 
 namespace Comertis\Exceptions;
 
-use Comertis\Exceptions\Internal\BaseException;
+use Exception;
 
 /**
  * The exception that is thrown when one of the arguments
@@ -47,7 +47,7 @@ use Comertis\Exceptions\Internal\BaseException;
  * @version  Release: 1.0.0
  * @link     https://github.com/Comertis/Exceptions
  */
-class ArgumentException extends BaseException
+class ArgumentException extends Exception
 {
 
 }

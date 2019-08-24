@@ -5,11 +5,9 @@
   "readme": "README.md",
   "license": "MIT",
   "minimum-stability": "stable",
-  "support": {
-    "docs": "https://github.com/Comertis/Exceptions/tree/master/docs",
-    "email": "support@comertis.com",
-    "issues": "https://github.com/Comertis/Exceptions/issues",
-    "source": "https://github.com/Comertis/Exceptions"
+  "homepage": "https://github.com/Comertis/Exceptions",
+  "require": {
+    "php": ">=7.0.0"
   },
   "authors": [
     {
@@ -20,8 +18,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Comertis\\Exceptions\\": "src/",
-      "Comertis\\Exceptions\\Internal\\": "src/internal"
+      "Comertis\\Exceptions\\": "src/"
     }
   }
 }
