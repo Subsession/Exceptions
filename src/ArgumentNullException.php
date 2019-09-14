@@ -3,7 +3,7 @@
  * PHP Version 7
  *
  * LICENSE:
- * Copyright 2019 - present Comertis
+ * Copyright 2019 - present Subsession
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -25,27 +25,27 @@
  * USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  * @category Exceptions
- * @package  Comertis\Exceptions
- * @author   Cristian Moraru <cristian@comertis.com>
+ * @package  Subsession\Exceptions
+ * @author   Cristian Moraru <cristian.moraru@live.com>
  * @license  https://opensource.org/licenses/MIT MIT
  * @version  GIT: &Id&
- * @link     https://github.com/Comertis/Exceptions
+ * @link     https://github.com/Subsession/Exceptions
  */
 
-namespace Comertis\Exceptions;
+namespace Subsession\Exceptions;
 
-use Comertis\Exceptions\ArgumentException;
+use Subsession\Exceptions\ArgumentException;
 
 /**
  * The exception that is thrown when a null reference is passed
  * to a method that does not accept it as a valid argument.
  *
  * @category Exceptions
- * @package  Comertis\Exceptions
- * @author   Cristian Moraru <cristian@comertis.com>
+ * @package  Subsession\Exceptions
+ * @author   Cristian Moraru <cristian.moraru@live.com>
  * @license  https://opensource.org/licenses/MIT MIT
  * @version  Release: 1.0.0
- * @link     https://github.com/Comertis/Exceptions
+ * @link     https://github.com/Subsession/Exceptions
  */
 class ArgumentNullException extends ArgumentException
 {

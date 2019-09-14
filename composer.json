@@ -1,24 +1,24 @@
 {
-  "name": "comertis/exceptions",
-  "description": "Collection of the most common exceptions",
+  "name": "subsession/exceptions",
+  "description": "A collection of the most common runtime exceptions",
   "type": "library",
   "readme": "README.md",
   "license": "MIT",
   "minimum-stability": "stable",
-  "homepage": "https://github.com/Comertis/Exceptions",
+  "homepage": "https://github.com/Subsession/Exceptions",
   "require": {
     "php": ">=7.0.0"
   },
   "authors": [
     {
       "name": "Cristian Moraru",
-      "email": "cristian@comertis.com",
+      "email": "cristian.moraru@live.com",
       "role": "Developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Comertis\\Exceptions\\": "src/"
+      "Subsession\\Exceptions\\": "src/"
     }
   }
 }
